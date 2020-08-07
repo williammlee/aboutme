@@ -1,0 +1,21 @@
+
+.headerContainer {
+    align-items: center;
+    height: 2000px;
+    width: 100%;
+    margin: 0;
+    padding:0;
+}
+.headerText {
+    color: #de6232;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+}
+
+/* 
+
+font-family: 'Gudea', sans-serif;
+font-family: 'NTR', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+*/
