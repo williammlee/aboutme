@@ -1,0 +1,57 @@
+#home {
+    clip-path: url(#cache);
+  }
+  
+  #red {
+    fill: none;
+    opacity: 0.15;
+    stroke: #f4f4f4;
+    stroke-width: 12;
+    stroke-miterlimit:10;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 2000;
+    animation: draw 35s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+  }
+  
+  #blue {
+    fill: none;
+    opacity: 0.15;
+    stroke: #de6232;
+    stroke-width: 12;
+    stroke-miterlimit:10;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 2000;
+    animation: draw 35s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+  }
+  
+  #light-blue {
+    fill: none;
+    opacity: 0.15;
+    stroke: #303135;
+    stroke-width: 6;
+    stroke-miterlimit:10;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 100;
+    animation: draw 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;    
+  }
+  
+  html {
+    background-color: #303135
+  }
+  
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+   }
+      }
