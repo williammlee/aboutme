@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css';
 
 
+
 export default function Header(){
     function NavigationBar(){
         return(
@@ -26,11 +27,16 @@ export default function Header(){
     }
 
     function HomeSection(){
+      
         return(
             <div class="home-area" id="home">
-                <div className="headerContainer">
+                <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'/>
+                    <div id="stars"></div>
+                    <div id="stars2"></div>
+                    <div id="stars3"></div>
+                    <div id="title"></div>
                     <h1 className="headerText">Hi, I'm William</h1>
-                </div>
+                
             </div>
         )
     }
