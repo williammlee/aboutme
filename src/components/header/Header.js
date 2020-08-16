@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css';
+import About from "../about/About";
 
 
 
@@ -18,10 +19,12 @@ export default function Header(){
                     </ul>
                 </div>
                 <HomeSection />
-                <AboutSection />
-                <ExperienceSection />
-                <HobbiesSection />
-                <ContactSection />
+                <div class="content">
+                    <AboutSection />
+                    <ExperienceSection />
+                    <HobbiesSection />
+                    <ContactSection />
+                </div>
             </div>
         )
     }
@@ -45,7 +48,8 @@ export default function Header(){
         return(
             <div class="about-area" id="about">
                 <div className="text-part">
-                    <h1>About</h1>
+                    <h1>About Me</h1>
+                    <About />
                 </div>
             </div>
         )

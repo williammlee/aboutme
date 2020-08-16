@@ -6,6 +6,10 @@
     vertical-align: middle;
 }
 
+.content h1 {
+    font-family: 'NTR', sans-serif;
+    color: #de6232
+}
 
 /*Navbar Styles*/
 .navBar {
@@ -50,13 +54,15 @@ a{
 }
 .about-area, .experience-area, .hobbies-area, .contact-area{
     position: relative;
+    text-align: left;
     display:flex;
-    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     height: 700px;
+    font-size: 25px;
+    padding-left: 20%;
 }
 
 html {
