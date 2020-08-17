@@ -48,7 +48,7 @@ export default function Header(){
         return(
             <div class="about-area" id="about">
                 <div className="text-part">
-                    <h1>About Me 💡</h1>
+                    <h1>About Me <span role="img" aria-label="bulb">💡</span></h1>
                     <About />
                 </div>
             </div>
@@ -59,7 +59,7 @@ export default function Header(){
         return(
             <div class="experience-area" id="experience">
                 <div className="text-part">
-                    <h1>Experience 🚀</h1>
+                    <h1>Experience <span role="img" aria-label="rocket">🚀</span></h1>
                 </div>
             </div>
         )
@@ -69,7 +69,7 @@ export default function Header(){
         return(
             <div class="hobbies-area" id="hobbies">
                 <div className="text-part">
-                    <h1>Hobbies 📸</h1>
+                    <h1>Hobbies <span role="img" aria-label="camera">📸</span></h1>
                 </div>
             </div>
         )
@@ -79,7 +79,7 @@ export default function Header(){
         return(
             <div class="contact-area" id="contact">
                 <div className="text-part">
-                    <h1>Contact 💬</h1>
+                    <h1>Contact <span role="img" aria-label="speech">💬</span></h1>
                 </div>
             </div>
         )
