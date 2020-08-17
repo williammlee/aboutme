@@ -49,6 +49,7 @@ export default function Header(){
             <div class="about-area" id="about">
                 <div className="text-part">
                     <h1>About Me <span role="img" aria-label="bulb">💡</span></h1>
+                    <hr/>
                     <About />
                 </div>
             </div>
@@ -59,7 +60,10 @@ export default function Header(){
         return(
             <div class="experience-area" id="experience">
                 <div className="text-part">
+                    
                     <h1>Experience <span role="img" aria-label="rocket">🚀</span></h1>
+                    <hr/>
+                    
                 </div>
             </div>
         )
