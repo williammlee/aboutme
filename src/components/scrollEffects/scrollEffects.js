@@ -9,7 +9,7 @@ export default function ScrollEffects(props) {
         entries.forEach(entry => setVisible(entry.isIntersecting));
       });
       observer.observe(domRef.current);
-      return () => observer.unobserve(domRef.current);
+      return () => observer.unobserve(domRef);
     }, []);
     return (
       <div
