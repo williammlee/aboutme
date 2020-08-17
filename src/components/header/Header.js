@@ -74,6 +74,7 @@ export default function Header(){
             <div class="hobbies-area" id="hobbies">
                 <div className="text-part">
                     <h1>Hobbies <span role="img" aria-label="camera">📸</span></h1>
+                    <hr/>
                 </div>
             </div>
         )
@@ -84,6 +85,7 @@ export default function Header(){
             <div class="contact-area" id="contact">
                 <div className="text-part">
                     <h1>Contact <span role="img" aria-label="speech">💬</span></h1>
+                    <hr/>
                 </div>
             </div>
         )
