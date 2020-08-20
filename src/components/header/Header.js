@@ -1,7 +1,7 @@
 import React from "react";
 import './Header.css';
 import About from "../about/About";
-
+import Experience from "../experience/Experience";
 
 
 export default function Header(){
@@ -9,7 +9,7 @@ export default function Header(){
         return(
             <div>
                 <div class="navBar">
-                    <a href="#william" class="logo">William</a>
+                    
                     <ul class="nav">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
@@ -63,7 +63,7 @@ export default function Header(){
                     
                     <h1>Experience <span role="img" aria-label="rocket">🚀</span></h1>
                     <hr/>
-                    
+                    <Experience/>
                 </div>
             </div>
         )

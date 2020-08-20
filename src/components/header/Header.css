@@ -63,7 +63,7 @@ hr{
     display:flex;
     justify-self: right;
     list-style: none;
-    margin-right: 0%;
+    margin-left: 70%;
 }
 .logo{
     flex: 1 1 auto;
@@ -73,11 +73,18 @@ hr{
     font-weight: bold;
     font-size: 35px;
 }
-a{
+.navBar a{
     margin: 15px;
     color: #f4f4f4;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.navBar .logo{
+  margin: 15px;
+  color: #f4f4f4;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 .home-area{
     position: relative;

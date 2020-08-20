@@ -7,7 +7,7 @@ import ScrollEffects from "../scrollEffects/scrollEffects";
 export default function About(){
     const classes = useStyles();
 
-    const aboutText =   <p>
+    const aboutText =   <p className="about">
                         Hello! I’m William, an aspiring software engineer.
                         <br/>
                         <br/>
@@ -16,8 +16,8 @@ export default function About(){
                         My goal is to build efficient products that improve the quality of lives of future generations.
                         <br/>
                         <br/>
-                        I  am currently a junior at Cornell University (insert hyperlink), 
-                        pursuing a Bachelors of Arts in Computer Science and a Minor in Business. 
+                        I am currently a junior at <a href="https://www.cornell.edu/" target="_blank" rel="nofollow noopener noreferrer">Cornell University</a>, 
+                         pursuing a Bachelors of Arts in Computer Science and a Minor in Business. 
                         </p>
     return (
         <div class="container">
@@ -43,5 +43,5 @@ const useStyles = makeStyles({
         flex: 1,
         width: 500,
         backgroundColor: "#f4f4f4",
-    }
+    },
 })

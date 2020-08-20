@@ -1,0 +1,38 @@
+.container {
+  width: 80%;
+  
+}
+.expandable-boxes {
+  position: relative;
+}
+.expandable-box {
+  width: 30%;
+  height: 250px;
+  float: left;
+  margin: 0 3% 20px 0;
+  border: 2px solid #f4f4f4;
+  border-radius: 12px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.expandable-box.open {
+  border-color: #de6232;
+  width: 100%;
+  height: 180px;
+  margin: 0;
+}
+.expandable-box.out {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border: none;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}

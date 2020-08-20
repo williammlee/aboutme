@@ -1,10 +1,19 @@
-p{
+.about{
     font-family: 'Gudea', sans-serif;
     flex-wrap: wrap;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
 }
+
+.about a{
+    font-family: 'Gudea', sans-serif;
+    flex-wrap: wrap;
+    font-size: 20px;
+    color: #de6232;
+    text-decoration: none;
+}
+
 .container{
     display:flex;
     flex-direction: row;
