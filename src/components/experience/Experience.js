@@ -16,9 +16,12 @@ export default function Experience(){
                         <h3>Full Stack Software Engineer Intern</h3>
                         <h4>May 2020 - Present</h4>
                         <p>
-                        This is the first box on the page
-                        .aaaaaaaaaaaaaaaaaaaaaaaaaaaa asdfasdfasdfasd asdfasdfasdfasd
-                        asdfasdfasdfsdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
                 </ScrollEffects>
@@ -31,9 +34,12 @@ export default function Experience(){
                         <h3>Independent Project</h3>
                         <h4>May 2020 - Present</h4>
                         <p>
-                        This is the first box on the page
-                        .aaaaaaaaaaaaaaaaaaaaaaaaaaaa asdfasdfasdfasd asdfasdfasdfasd
-                        asdfasdfasdfsdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
                 </ScrollEffects>
@@ -44,7 +50,7 @@ export default function Experience(){
                         <h2>POCAML</h2>
 
                         <h3>Coursework</h3>
-                        <h4>May 2020 - Present</h4>
+                        <h4>October 2019 – December 2019</h4>
                         <p>
                         This is the first box on the page
                         .aaaaaaaaaaaaaaaaaaaaaaaaaaaa asdfasdfasdfasd asdfasdfasdfasd
@@ -59,11 +65,14 @@ export default function Experience(){
                         <h2>PDF Reader</h2>
 
                         <h3>Independent Project</h3>
-                        <h4>May 2020 - Present</h4>
+                        <h4>June 2019 – August 2019</h4>
                         <p>
-                        This is the first box on the page
-                        .aaaaaaaaaaaaaaaaaaaaaaaaaaaa asdfasdfasdfasd asdfasdfasdfasd
-                        asdfasdfasdfsdfasdfasdasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                        sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
                 </ScrollEffects>

@@ -18,6 +18,7 @@ export default function Header(){
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
+                <Stars/>
                 <HomeSection />
                 <div class="content">
                     <AboutSection />
@@ -29,15 +30,22 @@ export default function Header(){
         )
     }
 
-    function HomeSection(){
-      
+    function Stars(){
         return(
-            <div class="home-area" id="home">
+            <div className="star">
                 <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'/>
                     <div id="stars"></div>
                     <div id="stars2"></div>
                     <div id="stars3"></div>
-                    <div id="title"></div>
+                   <div id="title"></div>
+            </div>
+        )            
+    }
+
+    function HomeSection(){
+      
+        return(
+            <div class="home-area" id="home">
                     <h1 className="headerText">Hi, I'm William</h1>
                 
             </div>

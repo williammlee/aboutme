@@ -93,9 +93,7 @@ hr{
     position: relative;
     width: 1000px;
     height: 100vh;
-    background-color: #303135;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     align-items: center;
     
 }
