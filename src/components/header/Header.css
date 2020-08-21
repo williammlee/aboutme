@@ -4,6 +4,8 @@
     font-family: 'Quicksand', sans-serif;
     font-size: 100px;
     vertical-align: middle;
+    margin-left: 300px;
+    margin-right: -200px;
     -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
@@ -18,6 +20,7 @@ hr{
     color: #FFF;
     margin-top: -60px;
     margin-bottom: 70px;
+    width: 1200px;
 }
 
 
@@ -88,11 +91,13 @@ hr{
 }
 .home-area{
     position: relative;
-    width: 100%;
+    width: 1000px;
     height: 100vh;
     background-color: #303135;
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
+    
 }
 .about-area, .experience-area, .hobbies-area, .contact-area{
     position: relative;
@@ -101,16 +106,18 @@ hr{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
-    height: 700px;
+    width: 1000px;
+    height: 900px;
     font-size: 25px;
     padding-left: 20%;
+    margin-left: 100px;
 }
 
 html {
 	background-color: #303135;
     overflow: visible;
     scroll-behavior: smooth;
+    width: 1000px;
 }
 
 #stars {
@@ -178,9 +185,10 @@ html {
 	}
 }
 /*
-font-family: 'Gudea', sans-serif;
-font-family: 'NTR', sans-serif;
 font-family: 'Quicksand', sans-serif;
+font-family: 'NTR', sans-serif;
+font-family: 'Gudea', sans-serif;
+
 
 */
 

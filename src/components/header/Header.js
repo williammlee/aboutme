@@ -60,7 +60,6 @@ export default function Header(){
         return(
             <div class="experience-area" id="experience">
                 <div className="text-part">
-                    
                     <h1>Experience <span role="img" aria-label="rocket">🚀</span></h1>
                     <hr/>
                     <Experience/>
