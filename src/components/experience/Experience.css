@@ -62,9 +62,57 @@
   text-align: center;
   color: #303135;
 }
+.expandable-box h5{
+  font-family: 'NTR', sans-serif;
+  font-size: 30px;
+  font-weight:800px;
+  margin-bottom: -25px;
+  color: #303135;
+}
 .expandable-box p{
   font-family: 'Gudea', sans-serif;
   font-size: 20px;
   text-align: left;
+  margin-left: 50px;
   color: #303135;
+}
+
+p li{
+  list-style: none;
+}
+
+p .tools li::before {
+  content: "🧰 ";
+  margin-right: 5px;
+}
+
+p .unipantry li::before{
+  content: "🍴 ";
+  margin-right: 5px;
+}
+
+p .spotidiscover li::before{
+  content: "🎵 ";
+  margin-right: 5px;
+}
+
+p .pocaml li::before{
+  content: "🕹️ ";
+  margin-right: 5px;
+}
+
+p .enjoyment li::before{
+  content: "💖 ";
+  margin-right: 5px;
+}
+
+p .context{
+  padding-right: 100px;
+}
+p a{
+  font-family: 'Gudea', sans-serif;
+  flex-wrap: wrap;
+  font-size: 20px;
+  color: #de6232;
+  text-decoration: none;
 }
