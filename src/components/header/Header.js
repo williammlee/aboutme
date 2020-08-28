@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css';
 import About from "../about/About";
 import Experience from "../experience/Experience";
+import Hobbies from "../hobbies/Hobbies"
 
 
 export default function Header(){
@@ -82,6 +83,7 @@ export default function Header(){
                 <div className="text-part">
                     <h1>Hobbies <span role="img" aria-label="camera">📸</span></h1>
                     <hr/>
+                    <Hobbies/>
                 </div>
             </div>
         )

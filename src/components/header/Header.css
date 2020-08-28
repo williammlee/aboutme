@@ -97,6 +97,8 @@ hr{
     align-items: center;
     
 }
+
+
 .about-area, .experience-area, .hobbies-area, .contact-area{
     position: relative;
     text-align: left;
@@ -105,10 +107,13 @@ hr{
     flex-wrap: wrap;
     flex-direction: row;
     width: 1000px;
-    height: 900px;
+    height: 100%;
     font-size: 25px;
     padding-left: 20%;
+    padding-top: 100px;
     margin-left: 100px;
+    margin-top: 100px;
+   
 }
 
 html {
