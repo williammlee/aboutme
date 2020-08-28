@@ -1,6 +1,6 @@
 {
-  "homepage": "http://williammlee.github.io/react-deploy",
-  "name": "mygitpages",
+  "homepage": "http://williammlee.github.io/aboutme",
+  "name": "aboutme",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
