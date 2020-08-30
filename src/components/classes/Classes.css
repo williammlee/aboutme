@@ -1,0 +1,37 @@
+
+
+ article {
+     column-width: 12em;
+     column-gap: 1em;
+    
+}
+
+ article p {
+    margin-top: -30px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: #303135;
+}
+
+.item {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    margin:  0.25rem;
+    padding:  1rem;
+    width:  100%; 
+    background:  #f4f4f4;
+    
+}
+
+
+article h6 {
+    margin-bottom: -20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: #de6232;
+}

@@ -1,11 +1,9 @@
 import React from "react"
 import "./Hobbies.css"
-import { Card, makeStyles } from '@material-ui/core';
+import { Card } from '@material-ui/core';
 
 
 export default function Hobbies(){
-
-    const classes = useStyles();
 
     const hobbiesText = <p className="hobbies">
                         I enjoy exploring and traveling to new places with my friends. I always keep my Canon DSLR in my bag and would take pictures whenever I see something eye-catching. I love editing pictures using Adobe Lightroom and seeing the pictures transform from its original state to match how I perceive the world. 
@@ -18,7 +16,7 @@ export default function Hobbies(){
     return(
         <div>
         <div>
-            <Card raised className={classes.root}>
+            <Card raised className="hobbiesBox">
                     {hobbiesText}
             </Card>
         </div>
@@ -108,12 +106,3 @@ export default function Hobbies(){
     )
 }
 
-const useStyles = makeStyles({
-    root: {
-        flex: 1,
-        width: "100%",
-        backgroundColor: "#f4f4f4",
-        marginBottom: 50,
-       
-    },
-})

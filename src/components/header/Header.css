@@ -92,14 +92,14 @@ hr{
 .home-area{
     position: relative;
     width: 1000px;
-    height: 100vh;
+    height: 700px;
     
     align-items: center;
     
 }
 
 
-.about-area, .experience-area, .hobbies-area, .contact-area{
+.about-area, .experience-area, .hobbies-area, .class-area{
     position: relative;
     text-align: left;
     display:flex;

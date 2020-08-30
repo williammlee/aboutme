@@ -108,4 +108,15 @@
     padding-left: 15px;
     padding-right: 15px;
     font-size: 30px;
+
 }
+
+.hobbiesBox{
+    flex: 1;
+    width: "100%";
+    background-color: #f4f4f4;
+    margin-bottom: 50px;
+        
+       
+}
+

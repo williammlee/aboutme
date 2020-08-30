@@ -3,6 +3,7 @@ import './Header.css';
 import About from "../about/About";
 import Experience from "../experience/Experience";
 import Hobbies from "../hobbies/Hobbies"
+import Classes from "../classes/Classes"
 
 
 export default function Header(){
@@ -14,18 +15,18 @@ export default function Header(){
                     <ul class="nav">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
+                        <li><a href="#coursework">Coursework</a></li>
                         <li><a href="#experience">Experience</a></li>
                         <li><a href="#hobbies">Hobbies</a></li>
-                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <Stars/>
                 <HomeSection />
                 <div class="content">
                     <AboutSection />
+                    <ClassesSection />
                     <ExperienceSection />
                     <HobbiesSection />
-                    <ContactSection />
                 </div>
             </div>
         )
@@ -89,12 +90,14 @@ export default function Header(){
         )
     }
 
-    function ContactSection(){
+    function ClassesSection(){
         return(
-            <div class="contact-area" id="contact">
+            <div class="class-area" id="coursework">
                 <div className="text-part">
-                    <h1>Contact <span role="img" aria-label="speech">💬</span></h1>
+                    <h1>Coursework <span role="img" aria-label="books">📚</span></h1>
                     <hr/>
+                    <Classes/>
+
                 </div>
             </div>
         )
