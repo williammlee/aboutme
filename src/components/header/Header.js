@@ -18,6 +18,7 @@ export default function Header(){
                         <li><a href="#coursework">Coursework</a></li>
                         <li><a href="#experience">Experience</a></li>
                         <li><a href="#hobbies">Hobbies</a></li>
+                        <li><ResumeButton></ResumeButton></li>
                     </ul>
                 </div>
                 <Stars/>
@@ -100,6 +101,17 @@ export default function Header(){
 
                 </div>
             </div>
+        )
+    }
+
+    
+    function ResumeButton(){
+        return(
+            <button class="resumeButton"
+            type= "button"
+            onClick={ ()=> window.open('https://www.dropbox.com/s/5f83ziepa9qqe6g/William_Lee_Resume.pdf?dl=0', '_blank')}>
+                RESUME
+            </button>
         )
     }
     return(

@@ -59,14 +59,14 @@ hr{
     flex-wrap: wrap;
     background-color: #303135;
     width: 100%;
-    height: 70px;
+    height: 50px;
     z-index: 1;
 }
 .nav {
     display:flex;
     justify-self: right;
     list-style: none;
-    margin-left: 70%;
+    margin-left: 60%;
 }
 .logo{
     flex: 1 1 auto;
@@ -81,6 +81,7 @@ hr{
     color: #f4f4f4;
     text-decoration: none;
     text-transform: uppercase;
+    
 }
 
 .navBar .logo{
@@ -177,6 +178,52 @@ html {
 	box-shadow: 761px 1557px #FFF , 147px 499px #FFF , 1274px 175px #FFF , 722px 181px #FFF , 1162px 1598px #FFF , 210px 1500px #FFF , 1947px 1130px #FFF , 342px 167px #FFF , 40px 1956px #FFF , 1944px 129px #FFF , 663px 1290px #FFF , 1016px 29px #FFF , 971px 285px #FFF , 862px 1046px #FFF , 1889px 1709px #FFF , 1056px 1676px #FFF , 508px 437px #FFF , 1312px 1900px #FFF , 1222px 689px #FFF , 1985px 822px #FFF , 1620px 919px #FFF , 697px 1168px #FFF , 979px 882px #FFF , 1332px 194px #FFF , 983px 412px #FFF , 1896px 581px #FFF , 1801px 1419px #FFF , 7px 1511px #FFF , 1826px 829px #FFF , 659px 575px #FFF , 267px 527px #FFF , 982px 963px #FFF , 461px 345px #FFF , 1942px 1906px #FFF , 282px 1351px #FFF , 371px 1591px #FFF , 1693px 516px #FFF , 856px 1553px #FFF , 192px 1925px #FFF , 1127px 1820px #FFF , 1784px 613px #FFF , 712px 1819px #FFF , 951px 843px #FFF , 113px 500px #FFF , 1513px 938px #FFF , 1326px 1313px #FFF , 1937px 539px #FFF , 986px 1242px #FFF , 79px 1350px #FFF , 103px 1177px #FFF , 1985px 595px #FFF , 1099px 1427px #FFF , 1629px 1373px #FFF , 393px 954px #FFF , 1572px 1158px #FFF , 1135px 609px #FFF , 215px 856px #FFF , 660px 1487px #FFF , 938px 435px #FFF , 751px 68px #FFF , 1325px 345px #FFF , 862px 274px #FFF , 1225px 603px #FFF , 1800px 1214px #FFF , 460px 1780px #FFF , 383px 1078px #FFF , 465px 656px #FFF , 875px 1917px #FFF , 1763px 751px #FFF , 104px 1529px #FFF , 1124px 354px #FFF , 1957px 1311px #FFF , 453px 1113px #FFF , 168px 1018px #FFF , 1373px 1251px #FFF , 843px 1222px #FFF , 655px 1761px #FFF , 1644px 409px #FFF , 107px 1778px #FFF , 347px 1269px #FFF , 744px 781px #FFF , 133px 246px #FFF , 645px 861px #FFF , 1793px 1696px #FFF , 875px 1672px #FFF , 69px 1524px #FFF , 600px 1790px #FFF , 1159px 107px #FFF , 303px 742px #FFF , 1737px 790px #FFF , 1328px 15px #FFF , 1888px 550px #FFF , 1710px 1514px #FFF , 1385px 1362px #FFF , 1166px 1822px #FFF , 1106px 679px #FFF , 1645px 1409px #FFF , 615px 482px #FFF , 554px 1582px #FFF , 43px 1241px #FFF;
 }
 
+.resumeButton {
+  color: #f4f4f4 ;
+  background: none;
+  border: 2px solid;
+  border-color: #de6232;
+  font: inherit;
+  height: 30px;
+  width:auto;
+  margin-left: 20px;
+  margin-top: -5px;
+  
+ 
+  -webkit-animation: pulsate-fwd 1.5s ease-in-out infinite both;
+	        animation: pulsate-fwd 1.5s ease-in-out infinite both;
+}
+
+
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 
 @keyframes animStar {
 	from {
@@ -187,6 +234,8 @@ html {
 		transform: translateY(-2000px);
 	}
 }
+
+
 /*
 font-family: 'Quicksand', sans-serif;
 font-family: 'NTR', sans-serif;
