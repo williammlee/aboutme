@@ -1,20 +1,24 @@
-import React from "react";
+import React, {useState} from "react";
 import './Experience.css';
 import "./openAnimation";
-import ScrollEffects from "../scrollEffects/scrollEffects"
+import ScrollEffects from "../scrollEffects/scrollEffects";
 
 export default function Experience(){
+
+    const [clicked, setClicked] = useState(false);
+
     return(
         <div class="container">
             <script src="./openAnimation"></script>
             <div class="expandable-boxes">
                 <ScrollEffects>
-                    <div class="expandable-box">
+                    <div class="expandable-box" onClick ={() => setClicked(true)}>
 
                         <h2>UniPantry</h2>
 
                         <h3>Full Stack Software Engineer Intern</h3>
                         <h4>May 2020 - August 2020</h4>
+                        <h6 style={{visibility: clicked ? "hidden" : "visible"}}>Click For More Info</h6>
                         <p>
                         <h5>What is it?</h5>
                             <ul className="unipantry">
@@ -51,12 +55,14 @@ export default function Experience(){
                 </ScrollEffects>
                 
                 <ScrollEffects>
-                    <div class="expandable-box">
+                    <div class="expandable-box" onClick ={() => setClicked(true)}>
+
 
                         <h2>SpotiDiscover</h2>
 
                         <h3>Independent Project</h3>
                         <h4>May 2020 - June 2020</h4>
+                        <h6 style={{visibility: clicked ? "hidden" : "visible"}}>Click For More Info</h6>
                         <p>
                         <h5>What is it?</h5>
                             <ul className="spotidiscover">
@@ -93,12 +99,14 @@ export default function Experience(){
                 </ScrollEffects>
                 
                 <ScrollEffects>
-                    <div class="expandable-box">
+                    <div class="expandable-box" onClick ={() => setClicked(true)}>
+
 
                         <h2>POCAML</h2>
 
                         <h3>Coursework</h3>
                         <h4>October 2019 – December 2019</h4>
+                        <h6 style={{visibility: clicked ? "hidden" : "visible"}}>Click For More Info</h6>
                         <p>
                         <h5>What is it?</h5>
                             <ul className="pocaml">
@@ -134,12 +142,14 @@ export default function Experience(){
                 </ScrollEffects>
 
                 <ScrollEffects>
-                    <div class="expandable-box">
+                    <div class="expandable-box" onClick ={() => setClicked(true)}>
+
 
                         <h2>PDF Reader</h2>
 
                         <h3>Independent Project</h3>
                         <h4>June 2019 – August 2019</h4>
+                        <h6 style={{visibility: clicked ? "hidden" : "visible"}}>Click For More Info</h6>
                         <p>
                         <h5>What is it?</h5>
                             <ul className="pdfreader">
@@ -171,7 +181,6 @@ export default function Experience(){
                 </ScrollEffects>
                 
             </div>
-            
         </div>
     )
 }

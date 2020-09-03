@@ -7,6 +7,7 @@ import Classes from "../classes/Classes"
 
 
 export default function Header(){
+
     function NavigationBar(){
         return(
             <div>
