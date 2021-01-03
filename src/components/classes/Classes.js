@@ -56,7 +56,7 @@ export default function Classes(){
   </Card>
   
   <Card className="item">
-  <p><h6>NCC 5500</h6><br/>Financial Accounting</p>
+    <p><h6>NCC 5500</h6><br/>Financial Accounting</p>
   </Card>
   
   
