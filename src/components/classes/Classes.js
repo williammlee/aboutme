@@ -59,6 +59,7 @@ export default function Classes(){
     <p><h6>NCC 5500</h6><br/>Financial Accounting</p>
   </Card>
   
+ 
   
   
 </article>
