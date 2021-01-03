@@ -48,10 +48,6 @@ export default function Classes(){
   </Card>
 
   <Card className="item">
-    <p><h6>CS 4321</h6><br/>Practicum in Database Systems</p>
-  </Card>
-
-  <Card className="item">
     <p><h6>CS 4820</h6><br/>Introduction to Analysis of Algorithms</p>
   </Card>
 
@@ -60,7 +56,7 @@ export default function Classes(){
   </Card>
   
   <Card className="item">
-  <p><h6>AEM 5241</h6><br/>Finance</p>
+  <p><h6>NCC 5500</h6><br/>Financial Accounting</p>
   </Card>
   
   
